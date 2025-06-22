@@ -31,8 +31,27 @@ Thumbs.db
 **/node_modules
 **/npm-debug.log
 **/.env
-**/Dockerfile
-**/docker-compose.override.yml
+# **/Dockerfile
+# **/docker-compose.override.yml
+
+# Generated type declarations
+*.d.ts
+
+# Keep tracking important config and source files
+# Do NOT uncomment these as they should be tracked by Git:
+# *.ts
+# *.tsx
+# next.config.ts
+# tsconfig.json
+# postcss.config.mjs
+# package.json
+# package-lock.json
+# README.md
+
+# Only ignore specific SVGs/assets if needed
+# client/public/*.svg
+# client/src/app/*.css
+# client/src/app/favicon.ico
 
 # Misc
 *.swp
